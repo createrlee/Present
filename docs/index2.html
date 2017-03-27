@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>anonymous</title>
+</head>
+
+<body oncontextmenu="return false">
+    <div style="margin:auto; width:800px; height:400px; text-align:center; vertical-align:middle; word-break:break-all; word-wrap:break-word; padding-top:100px">
+        
+        <font style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+        
+        <img src="http://news.dongascience.com/MEDIA/Photo/2011/01/04/20110104-17.jpg" width="700" height="300"><br><br>
+        광학 활성을 갖는 두 분자가 거울 대칭인 관계를 이루는 경우를 이르는 말로, 탄소나 탄소의 화학결합, 질소, 황등의 입체 중심을 갖고 있다. 또한, 한 분자 내에서 자신을 이등분하는 대칭면을 가지고 있다.<br>
+        이 관계를 가진 두 분자는 화학식과 구성식은 동일하나 구조식이 거울에 비친 것처럼 반대 형태가 된다.<br>
+        이 화학 용어는 무엇일까?<br><br>
+        </font>
+        
+        <input type="text" name="textfield" id="textfield"/>
+        <input name="button" type="button" onClick="checkAnswer()" value="확인"/>
+        
+        <script>
+            var textfield = document.getElementById('textfield');
+            
+            function checkAnswer() {
+                if(textfield.value == "거울상 이성질체" || textfield.value == "거울상이성질체" || textfield.value == "광학 이성질체" || textfield.value == "광학이성질체" || textfield.value == "Optical Isomer" || textfield.value == "Enantiomer") {
+                    location.href = 'index3.html'
+                } else {
+                    alert('틀렸습니다');
+                }
+            }
+        </script>
+    </div>
+    
+</body>
+
+</html>

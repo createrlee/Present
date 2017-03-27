@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>anonymous</title>
+</head>
+
+<body oncontextmenu="return false">
+    <div style="margin:auto; width:900px; height:400px; text-align:center; vertical-align:middle; word-break:break-all; word-wrap:break-word; padding-top:200px">
+        
+        <font style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+
+        17.02.26, 1<br>
+        17.01.19, 9, 4<br>
+        17.02.28, 1, 1<br>
+        16.12.31, 1, 2<br>
+        16.12.26, 1, 1<br>
+        17.01.27, 3, 3<br>
+        17.02.06, 4<br>
+        17.03.12, 4<br>
+        16.12.29, 2, 7
+        <br><br>
+        </font>
+        
+        <input type="text" name="textfield" id="textfield"/>
+        <input name="button" type="button" onClick="checkAnswer()" value="확인"/>
+        
+        <script>
+            var textfield = document.getElementById('textfield');
+            
+            function checkAnswer() {
+                if(textfield.value == "이제네게별이되리라") {
+                    location.href = 'index8.html';
+                } else {
+                    alert('틀렸습니다');
+                }
+            }
+        </script>
+    </div>
+    
+</body>
+
+</html>
